@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Mohamed | Data Analyst Portfolio</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: #121212;
+        color: #f5f5f5;
+        line-height: 1.6;
+    }
+    header {
+        background: #1f1f1f;
+        padding: 30px 15px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.2em;
+    }
+    header p {
+        margin: 5px 0 0;
+        font-size: 1.1em;
+        opacity: 0.85;
+    }
+    .container {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 0 15px;
+    }
+    .card {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        transition: transform 0.2s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .icon {
+        flex-shrink: 0;
+        width: 50px;
+        height: 50px;
+    }
+    .card h3 {
+        margin: 0;
+        font-size: 1.3em;
+    }
+    .card p {
+        margin: 5px 0 0;
+        font-size: 0.95em;
+        color: #ccc;
+    }
+    .btn {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 6px 14px;
+        background: #2563eb;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9em;
+    }
+    .btn:hover {
+        background: #1e40af;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 0.85em;
+        background: #0d0d0d;
+        border-top: 1px solid #333;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Omar Mohamed</h1>
+    <p>Data Analyst | BI Analyst</p>
+</header>
+
+<div class="container">
+
+    <!-- Python -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="50">
+        </div>
+        <div>
+            <h3>Python Data Analysis</h3>
+            <p>Data cleaning, analysis, and visualization using Python libraries.</p>
+            <a href="python.html" class="btn">View Project</a>
+        </div>
+    </div>
+
+    <!-- Power BI -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" width="50">
+        </div>
+        <div>
+            <h3>Power BI Dashboard</h3>
+            <p>Interactive business dashboard to track KPIs and trends.</p>
+            <a href="powerbi.html" class="btn">View Project</a>
+        </div>
+    </div>
+
+    <!-- SQL -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL Logo" width="50">
+        </div>
+        <div>
+            <h3>SQL Reports</h3>
+            <p>SQL queries for generating performance and KPI reports.</p>
+            <a href="sql.html" class="btn">View Project</a>
+        </div>
+    </div>
+
+    <!-- Excel -->
+    <div class="card">
+        <div class="icon">
+            <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/57/ca/a1/57caa154-67ab-dc09-5a08-1a33155ed2c7/source/512x512bb.jpg" alt="Excel Logo" width="50">
+        </div>
+        <div>
+            <h3>Excel Dashboard</h3>
+            <p>Interactive Excel dashboard with charts and slicers.</p>
+            <a href="excel.html" class="btn">View Project</a>
+        </div>
+    </div>
+    <div>
+    <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a Data Analyst passionate about turning raw data into meaningful insights. Skilled in Excel, Power BI, SQL, and Python, I create dashboards and reports that support decision-making.</p>
+    </section>
+    </div> 
+
+    <div>
+    <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:omaryounes22239@gmail.com">omaryounes22239@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/omaryounes572" target="_blank">github.com/your-username</a></p>
+    </section>
+    </div>
+
+<footer>
+    &copy; <span id="year"></span> Omar Mohamed | Data Analyst Portfolio
+
+    &copy; <span id="year"></span> Omar Mohamed | Data Analyst Portfolio
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
